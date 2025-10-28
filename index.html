@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Xora — Fast, Keyless Roblox Executor</title>
+  <meta name="description" content="Xora - a fast, keyless Roblox executor built for performance, reliability and a refined interface." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">Xora</a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#download" class="btn">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Xora — Fast, Free & Keyless</h1>
+          <p>Next-generation Roblox executor with near-instant attach, integrated Script Hub, multi-attach support and powerful debugging tools — built for both beginners and power users.</p>
+          <div class="cta-row">
+            <a id="download" class="cta" href="#">Download</a>
+            <a class="cta ghost" href="https://discord.gg/" target="_blank">Join Discord</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <pre class="mock-code">-- attached to Roblox
+attach()
+run("print('hello world')")</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <h2 class="section-title">Key Features</h2>
+      <div class="grid">
+        <article class="feature">
+          <h3>Performance First</h3>
+          <p>Optimized memory handling and near-instant attach times for a smooth, reliable experience.</p>
+        </article>
+        <article class="feature">
+          <h3>Keyless & Free</h3>
+          <p>No license keys, no paywalls — fully accessible to everyone.</p>
+        </article>
+        <article class="feature">
+          <h3>Script Hub Integration</h3>
+          <p>Integrated online Script Hub with one-click execution and an in-app editor.</p>
+        </article>
+        <article class="feature">
+          <h3>Multi-Attach Support</h3>
+          <p>Attach to multiple game instances simultaneously for faster testing and dev workflows.</p>
+        </article>
+        <article class="feature">
+          <h3>Daily Updates</h3>
+          <p>Regular compatibility updates to keep Xora working with the latest Roblox changes.</p>
+        </article>
+        <article class="feature">
+          <h3>Developer API (Upcoming)</h3>
+          <p>Planned API to let creators extend Xora and build add-ons.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2 class="section-title">About Xora</h2>
+      <p><strong>Xora</strong> is a next-generation Roblox executor built for performance, stability, and precision. Whether you're new to scripting or a power user, Xora provides a clean interface with advanced tools like an integrated Script Hub, split-view editor, and a robust output console. We focus on speed, reliability, and user-first design — and we stay up-to-date with frequent updates and improvements.</p>
+      <p class="muted">Want exclusive updates, changelogs and community support? Join our Discord.</p>
+      <a class="btn" href="https://discord.gg/" target="_blank">Join Discord</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Xora. All rights reserved.</p>
+      <div class="small-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Changelog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
